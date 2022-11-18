@@ -154,7 +154,7 @@ public class Persona {
     
     
     
-    @Override
+    @Override //  Sobreescritura, se da cuando hay una jerarquia
     public String toString(){
         return "Persona{" + "Nombre = " + nombre + ", edad = " + edad + ", NIF = " + nif + ", sexo = " + sexo + ", peso = " + peso + ", altura = " + altura + '}';
     }
